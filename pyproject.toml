@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "bit-apply"
+version = "0.1.0"
+description = ""
+authors = ["Victor Ciurana <admin@victorciurana.com>"]
+readme = "README.md"
+packages = [{include = "bit_apply"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest-asyncio = "^1.2.0"
+httpx = "^0.28.1"
+isort = "^6.0.1"
+black = "^25.9.0"
+ruff = "^0.13.1"
+vcrpy = "^7.0.0"
+aiosmtplib = "^4.0.2"
+python-dotenv = "^1.1.1"
+pytest-cov = "^7.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.coverage.run]
+omit = [
+    "constants.py",
+]

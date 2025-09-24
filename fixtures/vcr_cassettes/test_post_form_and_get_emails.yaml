@@ -1,0 +1,72 @@
+interactions:
+- request:
+    body: callCount=1&page=%2Fwparcbitfront%2FEmpresaLis.jsp&scriptSessionId=D720C0B24255whateverA057B4271DEF68&c0-scriptName=FrontOffice&c0-methodName=obtenerListaFiltradaFrontEmpresas&c0-id=0&c0-e1=string%3A&c0-e2=string%3A&c0-e3=string%3A&c0-e4=number%3A0&c0-e5=number%3A0&c0-e6=string%3A&c0-e7=number%3A4&c0-e8=boolean%3Atrue&c0-e9=string%3A&c0-e10=string%3A&c0-param0=Object_Object%3A%7Bactividad%3Areference%3Ac0-e1%2CclassName%3Areference%3Ac0-e2%2CcodigoLOV%3Areference%3Ac0-e3%2CcolumnaOrden%3Areference%3Ac0-e4%2CedificioCodigo%3Areference%3Ac0-e5%2Cnombre%3Areference%3Ac0-e6%2CnumPagina%3Areference%3Ac0-e7%2CordenAscendente%3Areference%3Ac0-e8%2CpalabraClave%3Areference%3Ac0-e9%2CvalorLOV%3Areference%3Ac0-e10%7D&batchId=12
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '727'
+      content-type:
+      - application/x-www-form-urlencoded
+      host:
+      - www.parcbit.es
+      user-agent:
+      - python-httpx/0.28.1
+    method: POST
+    uri: https://www.parcbit.es/wparcbitfront/dwr/call/plaincall/FrontOffice.obtenerListaFiltradaFrontEmpresas.dwr
+  response:
+    body:
+      string: "throw 'allowScriptTagRemoting is false.';\n//#DWR-INSERT\n//#DWR-REPLY\nvar
+        s0={};var s10={};var s1={};var s11={};var s2={};var s12={};var s3={};var s13={};var
+        s4={};var s14={};var s5={};var s15={};var s6={};var s16={};var s7={};var s17={};var
+        s8={};var s18={};var s9={};var s19={};s0.actividad=\"BIOTEC\";s0.codigo=781;s0.colaborativa=\"N\";s0.descripcionCA=\"\";s0.descripcionEN=\"\";s0.descripcionES=\"\";s0.destacada=\"N\";s0.edificio=s10;s0.email=\"test@victorciurana.com\";s0.fax=\"\";s0.fecha=null;s0.fechaBaja=null;s0.incubada=\"N\";s0.listaFicheros=null;s0.listaItems=null;s0.listaUsuariosNewsletter=null;s0.local=\"Segona
+        Planta\";s0.nombre=\"CIRCE Crystal Engineering\";s0.telefono=\"871 946 047\";s0.virtual=\"\";s0.web=\"\";\r\ns10.uso=\"\";s10.codigo=11;s10.listaFicheros=null;s10.latitud=null;s10.longitud=null;s10.descripcionEN=\"\";s10.direccion=\"\";s10.descripcionES=\"\";s10.descripcionCA=\"\";s10.nombre=\"Edifici
+        Europa\";s10.listaEmpresas=null;\r\ns1.actividad=\"OTROS\";s1.codigo=621;s1.colaborativa=\"N\";s1.descripcionCA=\"\";s1.descripcionEN=\"\";s1.descripcionES=\"\";s1.destacada=\"S\";s1.edificio=s11;s1.email=\"test@victorciurana.com\";s1.fax=\"\";s1.fecha=null;s1.fechaBaja=null;s1.incubada=\"N\";s1.listaFicheros=null;s1.listaItems=null;s1.listaUsuariosNewsletter=null;s1.local=\"PLANTA
+        2, LOCAL 9\";s1.nombre=\"Cl\\u00FAster de la Ind\\u00FAstria Qu\\u00EDmica
+        de les Illes Balears (CliQIB)\";s1.telefono=\"971 944 583\";s1.virtual=\"\";s1.web=\"\";\r\ns11.uso=\"\";s11.codigo=3;s11.listaFicheros=null;s11.latitud=null;s11.longitud=null;s11.descripcionEN=\"\";s11.direccion=\"\";s11.descripcionES=\"\";s11.descripcionCA=\"\";s11.nombre=\"Centre
+        Empresarial Son Espanyol\";s11.listaEmpresas=null;\r\ns2.actividad=\"INSTIT\";s2.codigo=2642;s2.colaborativa=\"N\";s2.descripcionCA=\"\";s2.descripcionEN=\"\";s2.descripcionES=\"\";s2.destacada=\"N\";s2.edificio=s12;s2.email=\"test@victorciurana.com\";s2.fax=\"\";s2.fecha=null;s2.fechaBaja=null;s2.incubada=\"N\";s2.listaFicheros=null;s2.listaItems=null;s2.listaUsuariosNewsletter=null;s2.local=\"PLANTA
+        2 LOCAL 9\";s2.nombre=\"Cl\\u00FAster de Transici\\u00F3 Ecol\\u00F2gica de
+        les Illes Balear - TEIB\";s2.telefono=\"663 107 075\";s2.virtual=\"\";s2.web=\"\";\r\ns12.uso=\"\";s12.codigo=3;s12.listaFicheros=null;s12.latitud=null;s12.longitud=null;s12.descripcionEN=\"\";s12.direccion=\"\";s12.descripcionES=\"\";s12.descripcionCA=\"\";s12.nombre=\"Centre
+        Empresarial Son Espanyol\";s12.listaEmpresas=null;\r\ns3.actividad=\"SOFTWA\";s3.codigo=2922;s3.colaborativa=\"N\";s3.descripcionCA=\"\";s3.descripcionEN=\"\";s3.descripcionES=\"\";s3.destacada=\"N\";s3.edificio=s13;s3.email=\"test@victorciurana.com\";s3.fax=\"\";s3.fecha=null;s3.fechaBaja=null;s3.incubada=\"N\";s3.listaFicheros=null;s3.listaItems=null;s3.listaUsuariosNewsletter=null;s3.local=\"BLOC
+        B, P3, LOCAL 12\";s3.nombre=\"Consilient Labs (Tocat Labs, S.L.U.)\";s3.telefono=\"871
+        87 33 59\";s3.virtual=\"\";s3.web=\"\";\r\ns13.uso=\"\";s13.codigo=7;s13.listaFicheros=null;s13.latitud=null;s13.longitud=null;s13.descripcionEN=\"\";s13.direccion=\"\";s13.descripcionES=\"\";s13.descripcionCA=\"\";s13.nombre=\"Edifici
+        Naorte\";s13.listaEmpresas=null;\r\ns4.actividad=\"SOFTWA\";s4.codigo=3061;s4.colaborativa=\"N\";s4.descripcionCA=\"\";s4.descripcionEN=\"\";s4.descripcionES=\"\";s4.destacada=\"N\";s4.edificio=s14;s4.email=\"test@victorciurana.com\";s4.fax=\"\";s4.fecha=null;s4.fechaBaja=null;s4.incubada=\"N\";s4.listaFicheros=null;s4.listaItems=null;s4.listaUsuariosNewsletter=null;s4.local=\"BLOC
+        B, PLANTA 2, LOCAL 12\";s4.nombre=\"DAGRAM - Servici Balear de Tecnologia
+        de la Informacio, S.L.\";s4.telefono=\"(+34) 971498476\";s4.virtual=\"\";s4.web=\"\";\r\ns14.uso=\"\";s14.codigo=7;s14.listaFicheros=null;s14.latitud=null;s14.longitud=null;s14.descripcionEN=\"\";s14.direccion=\"\";s14.descripcionES=\"\";s14.descripcionCA=\"\";s14.nombre=\"Edifici
+        Naorte\";s14.listaEmpresas=null;\r\ns5.actividad=\"SOFTWA\";s5.codigo=3241;s5.colaborativa=\"N\";s5.descripcionCA=\"\";s5.descripcionEN=\"\";s5.descripcionES=\"\";s5.destacada=\"N\";s5.edificio=s15;s5.email=\"test@victorciurana.com\";s5.fax=\"\";s5.fecha=null;s5.fechaBaja=null;s5.incubada=\"N\";s5.listaFicheros=null;s5.listaItems=null;s5.listaUsuariosNewsletter=null;s5.local=\"BLOC
+        B, P2, LOCALS 4 i 5\";s5.nombre=\"Deveez\";s5.telefono=\"609 198 159 \";s5.virtual=\"\";s5.web=\"\";\r\ns15.uso=\"\";s15.codigo=7;s15.listaFicheros=null;s15.latitud=null;s15.longitud=null;s15.descripcionEN=\"\";s15.direccion=\"\";s15.descripcionES=\"\";s15.descripcionCA=\"\";s15.nombre=\"Edifici
+        Naorte\";s15.listaEmpresas=null;\r\ns6.actividad=\"SOFTWA\";s6.codigo=2087;s6.colaborativa=\"N\";s6.descripcionCA=\"\";s6.descripcionEN=\"\";s6.descripcionES=\"\";s6.destacada=\"N\";s6.edificio=s16;s6.email=\"test@victorciurana.com\";s6.fax=\"\";s6.fecha=null;s6.fechaBaja=null;s6.incubada=\"N\";s6.listaFicheros=null;s6.listaItems=null;s6.listaUsuariosNewsletter=null;s6.local=\"1\";s6.nombre=\"Dingus\";s6.telefono=\"971
+        43 97 56\";s6.virtual=\"\";s6.web=\"\";\r\ns16.uso=\"\";s16.codigo=9;s16.listaFicheros=null;s16.latitud=null;s16.longitud=null;s16.descripcionEN=\"\";s16.direccion=\"\";s16.descripcionES=\"\";s16.descripcionCA=\"\";s16.nombre=\"Edifici
+        U\";s16.listaEmpresas=null;\r\ns7.actividad=\"INSTIT\";s7.codigo=89;s7.colaborativa=\"N\";s7.descripcionCA=\"\";s7.descripcionEN=\"\";s7.descripcionES=\"\";s7.destacada=\"N\";s7.edificio=s17;s7.email=\"\";s7.fax=\"\";s7.fecha=null;s7.fechaBaja=null;s7.incubada=\"N\";s7.listaFicheros=null;s7.listaItems=null;s7.listaUsuariosNewsletter=null;s7.local=\"BLOC
+        A, P2, LOCAL 8 a 14\";s7.nombre=\"Direcci\\u00F3 General de Pol\\u00EDtica
+        Univ\\u00E8rsitaria i Recerca\";s7.telefono=\"971 78 73 72\";s7.virtual=\"\";s7.web=\"\";\r\ns17.uso=\"\";s17.codigo=7;s17.listaFicheros=null;s17.latitud=null;s17.longitud=null;s17.descripcionEN=\"\";s17.direccion=\"\";s17.descripcionES=\"\";s17.descripcionCA=\"\";s17.nombre=\"Edifici
+        Naorte\";s17.listaEmpresas=null;\r\ns8.actividad=\"INSTIT\";s8.codigo=2721;s8.colaborativa=\"N\";s8.descripcionCA=\"\";s8.descripcionEN=\"\";s8.descripcionES=\"\";s8.destacada=\"N\";s8.edificio=s18;s8.email=\"test@victorciurana.com\";s8.fax=\"\";s8.fecha=null;s8.fechaBaja=null;s8.incubada=\"N\";s8.listaFicheros=null;s8.listaItems=null;s8.listaUsuariosNewsletter=null;s8.local=\"Planta
+        Baixa\";s8.nombre=\"Direcci\\u00F3 General d\\'Economia i Estad\\u00EDstica
+        - Conselleria d\\'Economia, Hisenda i Innovaci\\u00F3\";s8.telefono=\"971
+        17 73 20\";s8.virtual=\"\";s8.web=\"\";\r\ns18.uso=\"\";s18.codigo=4;s18.listaFicheros=null;s18.latitud=null;s18.longitud=null;s18.descripcionEN=\"\";s18.direccion=\"\";s18.descripcionES=\"\";s18.descripcionCA=\"\";s18.nombre=\"Edifici
+        Adduno\";s18.listaEmpresas=null;\r\ns9.actividad=\"SOFTWA\";s9.codigo=143;s9.colaborativa=\"N\";s9.descripcionCA=\"\";s9.descripcionEN=\"\";s9.descripcionES=\"\";s9.destacada=\"N\";s9.edificio=s19;s9.email=\"test@victorciurana.com\";s9.fax=\"\";s9.fecha=null;s9.fechaBaja=null;s9.incubada=\"N\";s9.listaFicheros=null;s9.listaItems=null;s9.listaUsuariosNewsletter=null;s9.local=\"14\";s9.nombre=\"DOME
+        Consulting & Solutions, S.L.\";s9.telefono=\" 902 889 288\";s9.virtual=\"\";s9.web=\"\";\r\ns19.uso=\"\";s19.codigo=9;s19.listaFicheros=null;s19.latitud=null;s19.longitud=null;s19.descripcionEN=\"\";s19.direccion=\"\";s19.descripcionES=\"\";s19.descripcionCA=\"\";s19.nombre=\"Edifici
+        U\";s19.listaEmpresas=null;\r\ndwr.engine._remoteHandleCallback('12','0',[s0,s1,s2,s3,s4,s5,s6,s7,s8,s9]);\n"
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '7063'
+      Content-Type:
+      - text/javascript;charset=utf-8
+      Date:
+      - Wed, 24 Sep 2025 19:03:54 GMT
+      Keep-Alive:
+      - timeout=5, max=100
+      Server:
+      - WildFly/10
+      X-Powered-By:
+      - Undertow/1
+    status:
+      code: 200
+      message: OK
+version: 1
